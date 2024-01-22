@@ -155,7 +155,14 @@
 
     <main class="md:container md:mx-auto"> 
         <!-- feature bike  -->
-        <section></section>
+        <section class="my-24">
+          <h3 class="text-5xl font-semibold text-center">Fetured Bikes In This Year</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-32 mt-7 px-24">
+            <figure><img class="mix-blend-luminosity" src="images/others/feature-bike.png" alt=""></figure>
+            <figure><img src="images/others/feature-bike.png" alt=""></figure>
+            <figure><img class="mix-blend-luminosity" src="images/others/feature-bike.png" alt=""></figure>
+          </div>
+        </section>
 
         <!-- latest news  -->
         <section class="my-24">
@@ -323,10 +330,18 @@
     </main>
     
 
-    <footer class="footer p-10 bg-neutral text-neutral-content">
+    <footer class="footer p-10 bg-neutral text-neutral-content justify-between">
         <aside>
           
-          <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+            <nav class="space-y-5">
+                <header class="footer-title">Download Now</header>
+                <a class="link link-hover">About</a>
+                <a class="link link-hover">Features</a>
+                <a class="link link-hover">Pricing</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">Privacy Policy</a>
+              </nav> 
+          <p>Copyright © 2024 - All right reserved</p>
         </aside> 
         <nav>
           <header class="footer-title">Get the App</header> 
